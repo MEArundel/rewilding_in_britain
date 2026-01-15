@@ -1,0 +1,141 @@
+﻿Species,Habitat_type,Suitablility
+Beaver,0,0
+Beaver,1,1
+Beaver,2,0
+Beaver,3,0
+Beaver,4,1
+Beaver,5,0
+Beaver,6,1
+Beaver,7,1
+Beaver,8,0
+Beaver,9,0
+Beaver,10,1
+Beaver,11,0
+Beaver,12,0
+Beaver,13,0
+Bison,0,0
+Bison,1,1
+Bison,2,0
+Bison,3,0
+Bison,4,1
+Bison,5,1
+Bison,6,0
+Bison,7,1
+Bison,8,0
+Bison,9,0
+Bison,10,0
+Bison,11,0
+Bison,12,0
+Bison,13,0
+Brown Bear,0,0
+Brown Bear,1,1
+Brown Bear,2,0
+Brown Bear,3,0
+Brown Bear,4,1
+Brown Bear,5,1
+Brown Bear,6,1
+Brown Bear,7,1
+Brown Bear,8,0
+Brown Bear,9,0
+Brown Bear,10,0
+Brown Bear,11,0
+Brown Bear,12,0
+Brown Bear,13,0
+Lynx,0,0
+Lynx,1,1
+Lynx,2,0
+Lynx,3,0
+Lynx,4,1
+Lynx,5,1
+Lynx,6,0
+Lynx,7,1
+Lynx,8,1
+Lynx,9,0
+Lynx,10,0
+Lynx,11,0
+Lynx,12,0
+Lynx,13,0
+Elk,0,0
+Elk,1,1
+Elk,2,0
+Elk,3,0
+Elk,4,0
+Elk,5,0
+Elk,6,1
+Elk,7,0
+Elk,8,0
+Elk,9,0
+Elk,10,0
+Elk,11,0
+Elk,12,0
+Elk,13,0
+Pine Marten,0,0
+Pine Marten,1,1
+Pine Marten,2,0
+Pine Marten,3,0
+Pine Marten,4,0
+Pine Marten,5,0
+Pine Marten,6,0
+Pine Marten,7,1
+Pine Marten,8,0
+Pine Marten,9,0
+Pine Marten,10,0
+Pine Marten,11,0
+Pine Marten,12,0
+Pine Marten,13,0
+Wild Boar,0,0
+Wild Boar,1,1
+Wild Boar,2,0
+Wild Boar,3,0
+Wild Boar,4,1
+Wild Boar,5,1
+Wild Boar,6,1
+Wild Boar,7,1
+Wild Boar,8,0
+Wild Boar,9,0
+Wild Boar,10,0
+Wild Boar,11,1
+Wild Boar,12,1
+Wild Boar,13,0
+Wildcat,0,0
+Wildcat,1,1
+Wildcat,2,0
+Wildcat,3,0
+Wildcat,4,1
+Wildcat,5,1
+Wildcat,6,1
+Wildcat,7,1
+Wildcat,8,1
+Wildcat,9,0
+Wildcat,10,0
+Wildcat,11,0
+Wildcat,12,0
+Wildcat,13,0
+Wolf,0,0
+Wolf,1,1
+Wolf,2,0
+Wolf,3,0
+Wolf,4,1
+Wolf,5,1
+Wolf,6,1
+Wolf,7,1
+Wolf,8,1
+Wolf,9,0
+Wolf,10,0
+Wolf,11,0
+Wolf,12,0
+Wolf,13,0
+Wolverine,0,0
+Wolverine,1,1
+Wolverine,2,0
+Wolverine,3,0
+Wolverine,4,1
+Wolverine,5,1
+Wolverine,6,1
+Wolverine,7,1
+Wolverine,8,1
+Wolverine,9,0
+Wolverine,10,0
+Wolverine,11,0
+Wolverine,12,0
+Wolverine,13,0
