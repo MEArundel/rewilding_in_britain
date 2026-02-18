@@ -376,8 +376,8 @@ is_primary   <- hotspot_polys$n_species_supported == 8
 is_secondary <- hotspot_polys$n_species_supported == 7
 
 # Palettes (dark = best rank, light = worse rank)
-cols_primary   <- colorRampPalette(c("#08306B", "#9ECAE1"))(sum(is_primary))   # blue
-cols_secondary <- colorRampPalette(c("#D94801", "#FEE6CE"))(sum(is_secondary)) # orange
+cols_primary   <- colorRampPalette(c("#3182bd", "#9ecae1"))(sum(is_primary))   # blue
+cols_secondary <- colorRampPalette(c("#de2d26", "#fc9272"))(sum(is_secondary)) # orange
 
 hotspot_polys$col <- NA_character_
 
@@ -438,7 +438,7 @@ legend(
   x      = ext$xmin + 0.65 * dx,
   y      = ext$ymax - 0.12 * dy,
   legend = c("Primary hotspots", "Secondary hotspots"),
-  fill   = c("#08306B", "#D94801"),
+  fill   = c("#3182bd", "#de2d26"),
   border = NA,
   bty    = "n",
   cex    = 0.95
