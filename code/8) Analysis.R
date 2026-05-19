@@ -8,11 +8,9 @@ library(ggplot2)
 library(dplyr)
 library(writexl)
 
-
 ###################################################
 # Summary Table Combined Stats FOR SPLIT WITH BARRIERS#
 ###################################################
-
 
 # Set folder path
 folder_path <- "./data/Suitable Habitats with Barriers"
@@ -40,7 +38,7 @@ summarise_species <- function(file) {
       sd_patch_km2 = sd(area_m2, na.rm = TRUE) / 1e6,
       largest_patch_km2 = max(area_m2, na.rm = TRUE) / 1e6,
       perc_largest_patch = (max(area_m2, na.rm = TRUE) / sum(area_m2, na.rm = TRUE)) * 100,
-      fragmentation_index = 1 - (max(area_m2, na.rm = TRUE) / sum(area_m2, na.rm = TRUE))
+      domination_index = 1 - (max(area_m2, na.rm = TRUE) / sum(area_m2, na.rm = TRUE))
     ) %>%
     ungroup()
   
@@ -64,11 +62,6 @@ output_path <- file.path(folder_path, "Patch_Summary_Overview.xlsx")
 write_xlsx(patch_summary, output_path)
 
 message("✅ Patch Summary Overview saved to: ", output_path)
-
-
-
-
-
 
 # -----------------------
 # Settings / I-O paths
