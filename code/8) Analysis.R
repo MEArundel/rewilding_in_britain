@@ -1,3 +1,16 @@
+###################################################
+# Summary table combined stats (split with barriers)
+###################################################
+# Description - This script summarises species-level habitat patch statistics
+# from Excel outputs generated after suitable habitat has been split by dispersal
+# barriers. For each species file, the script calculates the number of remaining
+# habitat patches, total suitable habitat area, mean, median and standard
+# deviation of patch area, largest patch size, the percentage of total habitat
+# contained within the largest patch, and a domination index describing how
+# evenly habitat area is distributed among patches. Empty or invalid files are
+# skipped, and all valid species summaries are combined, sorted alphabetically,
+# and exported as a single overview Excel table.
+
 # Clean session (optional)
 # rm(list = ls())
 
@@ -8,9 +21,6 @@ library(ggplot2)
 library(dplyr)
 library(writexl)
 
-###################################################
-# Summary Table Combined Stats FOR SPLIT WITH BARRIERS#
-###################################################
 
 # Set folder path
 folder_path <- "./data/Suitable Habitats with Barriers"
@@ -63,6 +73,20 @@ write_xlsx(patch_summary, output_path)
 
 message("✅ Patch Summary Overview saved to: ", output_path)
 
+
+###################################################
+# Dispersal distance and minimum area relationship #
+###################################################
+# Description - This script analyses the scaling relationship between species
+# dispersal distance and the minimum habitat area required to support a viable
+# population. Species-level minimum area and dispersal distance tables are
+# joined by species name, filtered to remove missing or invalid values, and
+# converted into km² and km for interpretation. A Pearson correlation test and
+# linear regression model are then fitted in log-log space to assess whether
+# species with greater dispersal distances also require larger habitat areas.
+# The script produces a labelled scatterplot with a fitted regression line and
+# saves the figure as a high-resolution PNG.
+
 # -----------------------
 # Settings / I-O paths
 # -----------------------
@@ -93,7 +117,7 @@ dispersal_m  <- setNames(dispersal_df$dispersal_dist_m, dispersal_df$species)
 rm(dispersal_df)
 
 # -----------------------
-# Build analysis dataframe (JOIN BY SPECIES NAME)
+# Build analysis dataframe
 # -----------------------
 common_species <- intersect(names(min_area_m2), names(dispersal_m))
 

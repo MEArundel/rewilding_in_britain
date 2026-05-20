@@ -70,7 +70,7 @@ home_range_data <- home_range_data %>%
   arrange(species)
 
 # Define output path
-output_file <- file.path(out_dir, "Supplementary Table 5 - Home Range Values.xlsx")
+output_file <- file.path(out_dir, "Supplementary Table S9 - Home Range Values.xlsx")
 # Write to Excel
 write.xlsx(home_range_data, output_file)
 
