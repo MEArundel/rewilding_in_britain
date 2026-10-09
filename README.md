@@ -56,18 +56,5 @@ and saves the figure as a high-resolution PNG.
 
 
 Download Locations:
-
-Spatial Downloads:
-Land Coverage (UKCEH) Map -  Morton, R.D., Marston, C.G., O’Neil, A.W., Rowland, C.S., 2024. Land Cover Map 2023 (land parcels, GB). https://doi.org/10.5285/50B344EB-8343-423B-8B2F-0E9800E34BBD
-The cleaning and processing of these data can be found in code 1) Land Coverage Reclassification Script
-European Rivers - Pope, A., 2017. European River Data. https://doi.org/10.7488/DS/1886
-British Railways - Pope, A., 2017a. GB Railways and stations. https://doi.org/10.7488/DS/1773
-British Roads - Ordnance Survey, 2024. OS Open Roads
-The cleaning and processing of these data can be found in code 4) Processing and Combining Dispersal Barriers Script
-
-Species Specific Downloads:
-Minimum Viable Populations - Traill, L.W., Bradshaw, C.J.A., Brook, B.W., 2007. Minimum viable population size: A meta-analysis of 30 years of published estimates. Biological Conservation 139, 159–166. https://doi.org/10.1016/j.biocon.2007.06.011
-Population Densities - Santini, L., Benítez‐López, A., Dormann, C.F., Huijbregts, M.A.J., 2022. Population density estimates for terrestrial mammal species. Global Ecol Biogeogr 31, 978–994. https://doi.org/10.1111/geb.13476
-Home Range - Broekman, M.J.E., Hilbers, J.P., Hoeks, S., Huijbregts, M.A.J., Schipper, A.M., Tucker, M.A., 2024. Environmental drivers of global variation in home range size of terrestrial and marine mammals. Journal of Animal Ecology 93, 488–500. https://doi.org/10.1111/1365-2656.14073
-
-
+All source datasets used in this study are publicly available. Land-cover data were obtained from the UK Centre for Ecology & Hydrology’s (UKCEH) Land Cover Map 2023 for Britain (Morton et al., 2024), available at https://doi.org/10.5285/50b344eb-8343-423b-8b2f-0e9800e34bbd. Minimum viable population estimates for Eurasian beaver, European bison, northern lynx, wild boar, Eurasian wolf, and wolverine were obtained from the supplementary dataset accompanying Traill et al. (2007). Population-density estimates were obtained from the supplementary dataset accompanying Santini et al. (2022), and home-range data were obtained from the Dryad dataset associated with Broekman et al. (2024).
+Road data were obtained from the Ordnance Survey Open Roads dataset (Ordnance Survey, 2024). Railway data (Pope, 2017a) and river and canal data (Pope, 2017) were obtained from Edinburgh DataShare; direct downloads are available for the railway dataset and the river and canal dataset. Dataset selection and processing procedures are described in the Methods and Supplementary Information.
